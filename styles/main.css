@@ -1,3 +1,9 @@
+:root {
+  --color1: #F5A623;
+  --color2: #00ADEE;
+  --color3: #EB008B;
+}
+
 body {
   font-family: "aktiv-grotesk", sans-serif;
 }
@@ -73,11 +79,13 @@ header.section {
 
 .main-menu h2 a {
   color: #ccc;
+  display: block;
   transition: color .3s;
 }
 
 .main-menu h2 a:hover {
   color: #999;
+
 }
 
 @media screen and (min-width: 769px) {
@@ -95,6 +103,39 @@ header.section {
   .main-menu h2 {
     font-size: 2.8rem;
     text-align: right;
+  }
+
+  .main-menu .menu-item {
+    position: relative;
+  }
+
+  .main-menu .menu-item::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 6px;
+    height: 3rem;
+    top: -4rem;
+    right: -7px;
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+
+  .main-menu .menu-imagine .menu-item::after {
+    background-color: var(--color1);
+  }
+
+  .main-menu .menu-design .menu-item::after {
+    background-color: var(--color2);
+  }
+
+  .main-menu .menu-build .menu-item::after {
+    background-color: var(--color3);
+  }
+
+  .main-menu .menu-item:hover::after {
+    opacity: 1;
+    top: .5rem;
   }
 
   .main-menu .menu-item-desc {
@@ -132,6 +173,14 @@ header.section {
 
   .main-menu .menu-item-desc {
     padding-top: 2.25rem;
+  }
+
+  .main-menu .menu-item::after {
+    height: 4rem;
+  }
+
+  .main-menu .menu-item:hover::after {
+    top: 1.75rem;
   }
 
 }
