@@ -27,10 +27,10 @@ header.section {
 .brand h1 a {
   display: block;
   text-indent: -100%;
-  width: 176px;
-  height: 32px;
+  width: 132px;
+  height: 24px;
   background: url(bldrs.svg);
-  background-size: 176px 32px;
+  background-size: 132px 24px;
 }
 
 .brand p {
