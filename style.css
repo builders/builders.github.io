@@ -20,9 +20,8 @@ header.section {
   padding-top: 1.5rem;
 }
 
-.brand h1,
-.brand p {
-  margin-bottom: 1em;
+.brand h1 {
+  margin-bottom: 1rem;
 }
 
 .brand h1 a {
@@ -32,6 +31,11 @@ header.section {
   height: 32px;
   background: url(bldrs.svg);
   background-size: 176px 32px;
+}
+
+.brand p {
+  color: #ccc;
+  margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 769px) {
