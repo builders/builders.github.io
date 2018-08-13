@@ -1,0 +1,17 @@
+body {
+  font-family: "aktiv-grotesk", sans-serif;
+}
+
+h1.title {
+  font-family: "aktiv-grotesk-extended", sans-serif;
+  font-weight: 900;
+}
+
+h2.title {
+  font-family: "aktiv-grotesk-extended", sans-serif;
+  font-weight: 800;
+}
+
+.column p {
+  margin-bottom: 1em;
+}
