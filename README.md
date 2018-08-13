@@ -26,4 +26,10 @@ This site is being created with jus, a development server and build tool for mak
 
 ---
 
+# Font Awesome
+
+Font Awesome Free is free, open source, and GPL friendly. You can use it for commercial projects, open source projects, or really almost whatever you want. Icons have been included according to the [FontAwesome Free License](https://fontawesome.com/license/free) and the CC BY 4.0 License.
+
+---
+
 **BLDRS** | building leaders to design a resilient society
