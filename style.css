@@ -53,4 +53,10 @@ header.section {
     padding-right: 1.5rem;
   }
 
+  .brand h1 a {
+    width: 176px;
+    height: 32px;
+    background-size: 176px 32px;
+  }
+
 }
