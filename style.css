@@ -15,3 +15,38 @@ h2.title {
 .column p {
   margin-bottom: 1em;
 }
+
+header.section {
+  padding-top: 1.5rem;
+}
+
+.brand h1,
+.brand p {
+  margin-bottom: 1em;
+}
+
+.brand h1 a {
+  display: block;
+  text-indent: -100%;
+  width: 176px;
+  height: 32px;
+  background: url(bldrs.svg);
+  background-size: 176px 32px;
+}
+
+@media screen and (min-width: 769px) {
+
+  .brand {
+    display: flex;
+  }
+
+  .brand h1,
+  .brand p {
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding-right: 1.5rem;
+  }
+
+}
