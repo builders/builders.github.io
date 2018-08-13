@@ -17,7 +17,24 @@ h2.title {
 }
 
 header.section {
+  padding-top: .75rem;
+}
+
+.brand {
+  margin-bottom: 6em;
+}
+
+.brand .column {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.brand .logo {
   padding-top: 1.5rem;
+}
+
+.brand .tagline {
+  padding-bottom: 2rem;
 }
 
 .brand h1 {
@@ -29,7 +46,7 @@ header.section {
   text-indent: -100%;
   width: 132px;
   height: 24px;
-  background: url(bldrs.svg);
+  background: url(../images/bldrs.svg);
   background-size: 132px 24px;
 }
 
@@ -38,18 +55,64 @@ header.section {
   margin-bottom: 1rem;
 }
 
+.main-menu h2 {
+  font-family: "aktiv-grotesk-extended", sans-serif;
+  font-weight: 900;
+  font-size: 2.8rem;
+  letter-spacing: -.2rem;
+}
+
+.main-menu .column {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.main-menu .menu-item-desc {
+  padding-bottom: 1rem;
+}
+
+.main-menu h2 a {
+  color: #ccc;
+  transition: color .3s;
+}
+
+.main-menu h2 a:hover {
+  color: #999;
+}
+
 @media screen and (min-width: 769px) {
 
-  .brand {
-    display: flex;
+  .brand .column {
+    padding-top: 1.5rem;
+    padding-bottom: 4rem;
+  }
+
+  .brand .logo,
+  .main-menu .menu-item {
+    border-right: 1px solid #333;
+  }
+
+  .main-menu h2 {
+    font-size: 2.8rem;
+    text-align: right;
+  }
+
+  .main-menu .menu-item-desc {
+    padding-top: .4rem;
+  }
+
+}
+
+@media screen and (min-width: 1281px) {
+
+  .brand .column {
+    padding-top: 1.5rem;
+    padding-bottom: 6rem;
   }
 
   .brand h1,
   .brand p {
     display: block;
-    flex-basis: 0;
-    flex-grow: 1;
-    flex-shrink: 1;
     padding-right: 1.5rem;
   }
 
@@ -57,6 +120,18 @@ header.section {
     width: 176px;
     height: 32px;
     background-size: 176px 32px;
+  }
+
+  .brand p {
+    flex: 2;
+  }
+
+  .main-menu h2 {
+    font-size: 4.5rem;
+  }
+
+  .main-menu .menu-item-desc {
+    padding-top: 2.25rem;
   }
 
 }
