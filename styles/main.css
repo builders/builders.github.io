@@ -50,12 +50,7 @@ header.section {
   height: 24px;
   background: url(../images/bldrs.svg);
   background-size: 132px 24px;
-  opacity: .7;
   transition: all .3s;
-}
-
-.brand h1 a:hover {
-  opacity: 1;
 }
 
 .brand p {
@@ -103,25 +98,8 @@ header.section {
   transition: all .2s;
 }
 
-.logo-icon::after {
-  content: '';
-  display: block;
-  width: 80px;
-  height: 80px;
-  position: absolute;
-  background: #fff;
-  top: 0;
-  left: 0;
-  opacity: .3;
-  transition: all .2s;
-}
-
 .logo-icon:hover {
   background-size: 48px 48px;
-}
-
-.logo-icon:hover::after {
-  opacity: 0;
 }
 
 .logo-outlines a {
