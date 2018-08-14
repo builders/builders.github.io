@@ -229,6 +229,16 @@ header.section {
   background-size: cover;
 }
 
+.hero .title,
+.hero .subtitle {
+  color: #fff;
+  text-shadow: 0 0 .3rem rgba(0, 0, 0, .5);
+}
+
+.section figcaption {
+  padding-top: 1rem;
+}
+
 .footer h2 {
   color: #999;
 }
@@ -335,6 +345,33 @@ header.section {
     padding-top: .4rem;
   }
 
+  .menu-item-desc p {
+    position: relative;
+  }
+
+  .menu-item-desc p::after {
+    content: '';
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: -1px;
+    right: -5px;
+    background-size: 48px 48px;
+  }
+
+  .menu-imagine .menu-item-desc p::after {
+    background-image: url(../images/triangle.svg);
+  }
+
+  .menu-design .menu-item-desc p::after {
+    background-image: url(../images/circle.svg);
+  }
+
+  .menu-build .menu-item-desc p::after {
+    background-image: url(../images/square.svg);
+  }
+
   .card:hover .card-image {
     position: relative;
     top: -.5em;
@@ -388,6 +425,14 @@ header.section {
 
   .main-menu .menu-item:hover::after {
     top: 1.75rem;
+  }
+
+  .menu-item-desc p::after {
+    width: 60px;
+    height: 60px;
+    top: -11px;
+    right: -6px;
+    background-size: 60px 60px;
   }
 
   .card h3 a {
