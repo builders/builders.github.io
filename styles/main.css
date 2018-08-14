@@ -225,10 +225,18 @@ header.section {
   color: #666;
 }
 
-.footer p.site-info {
+.footer .site-info {
   font-size: .75rem;
   margin-top: 6em;
   color: #444;
+}
+
+.footer .site-info a {
+  color: #666;
+}
+
+.footer .site-info a:hover {
+  color: #fff;
 }
 
 .footer .menu a {
