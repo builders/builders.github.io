@@ -54,6 +54,12 @@ header.section {
   height: 24px;
   background: url(../images/bldrs.svg);
   background-size: 132px 24px;
+  opacity: .7;
+  transition: all .3s;
+}
+
+.brand h1 a:hover {
+  opacity: 1;
 }
 
 .brand p {
@@ -75,16 +81,17 @@ header.section {
 
 .main-menu .menu-item-desc {
   padding-bottom: 1rem;
+  transition: padding-top .3s;
 }
 
 .main-menu h2 a {
   color: #ccc;
   display: block;
-  transition: color .3s;
+  transition: all .3s;
 }
 
 .main-menu h2 a:hover {
-  color: #999;
+  color: #000;
 
 }
 
@@ -97,6 +104,28 @@ header.section {
   top: -3rem;
   background: #fff url(../images/bldrs-icon.svg) no-repeat center center;
   background-size: 40px 40px;
+  transition: all .2s;
+}
+
+.logo-icon::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  background: #fff;
+  top: 0;
+  left: 0;
+  opacity: .3;
+  transition: all .2s;
+}
+
+.logo-icon:hover {
+  background-size: 48px 48px;
+}
+
+.logo-icon:hover::after {
+  opacity: 0;
 }
 
 .logo-outlines a {
@@ -110,6 +139,11 @@ header.section {
 
 .card {
   box-shadow: none;
+}
+
+.card .card-image {
+  transition: all .3s;
+  top: 0;
 }
 
 .card-content {
@@ -172,19 +206,19 @@ header.section {
   border-color: var(--color3);
 }
 
-.card h3 a:hover {
+.card:hover h3 a {
   border-color: #000;
 }
 
-.card-imagine h3 a:hover {
+.card-imagine:hover h3 a {
   color: var(--color1);
 }
 
-.card-design h3 a:hover {
+.card-design:hover h3 a {
   color: var(--color2);
 }
 
-.card-build h3 a:hover {
+.card-build:hover h3 a {
   color: var(--color3);
 }
 
@@ -240,6 +274,16 @@ header.section {
 
   .main-menu .menu-item-desc {
     padding-top: .4rem;
+  }
+
+  .card:hover .card-image {
+    position: relative;
+    top: -.5em;
+  }
+
+  .card h3 a {
+    min-height: 15rem;
+    transition: min-height .3s;
   }
 
 }
