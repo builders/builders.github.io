@@ -237,8 +237,16 @@ header.section {
   transition: color .3s;
 }
 
-.footer .menu a:hover {
-  color: #fff;
+.footer .menu .imagine a:hover {
+  color: var(--color1);
+}
+
+.footer .menu .design a:hover {
+  color: var(--color2);
+}
+
+.footer .menu .build a:hover {
+  color: var(--color3);
 }
 
 .footer .brands {
