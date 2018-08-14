@@ -207,10 +207,12 @@ header.section {
   background-color: var(--color1);
 }
 
+#build .column figure,
 #community .column figure {
   display: block;
 }
 
+#build .image,
 #community .shape {
   max-width: 240px;
   margin: 0 auto;
