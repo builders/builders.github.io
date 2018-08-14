@@ -44,12 +44,7 @@ header.section {
   height: 24px;
   background: url(../images/bldrs.svg);
   background-size: 132px 24px;
-  opacity: .7;
   transition: all .3s;
-}
-
-.brand h1 a:hover {
-  opacity: 1;
 }
 
 .brand p {
@@ -96,25 +91,8 @@ header.section {
   transition: all .2s;
 }
 
-.logo-icon::after {
-  content: '';
-  display: block;
-  width: 80px;
-  height: 80px;
-  position: absolute;
-  background: #fff;
-  top: 0;
-  left: 0;
-  opacity: .3;
-  transition: all .2s;
-}
-
 .logo-icon:hover {
   background-size: 48px 48px;
-}
-
-.logo-icon:hover::after {
-  opacity: 0;
 }
 
 .logo-outlines a {
@@ -240,10 +218,18 @@ header.section {
   color: #666;
 }
 
-.footer p.site-info {
+.footer .site-info {
   font-size: .75rem;
   margin-top: 6em;
   color: #444;
+}
+
+.footer .site-info a {
+  color: #666;
+}
+
+.footer .site-info a:hover {
+  color: #fff;
 }
 
 .footer .menu a {
@@ -252,8 +238,16 @@ header.section {
   transition: color .3s;
 }
 
-.footer .menu a:hover {
-  color: #fff;
+.footer .menu .imagine a:hover {
+  color: #F5A623;
+}
+
+.footer .menu .design a:hover {
+  color: #00ADEE;
+}
+
+.footer .menu .build a:hover {
+  color: #EB008B;
 }
 
 .footer .brands {
@@ -269,10 +263,6 @@ header.section {
   transition: color .3s;
 }
 
-.footer .social-network a:hover {
-  color: #fff;
-}
-
 .footer .social-network .icon,
 .footer .social-network .icon svg {
   width: 1.3rem;
@@ -281,6 +271,42 @@ header.section {
 
 .footer .social-network .icon {
   margin-right: .75rem;
+}
+
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.fa-facebook:hover {
+  color: #3b5998;
+}
+
+.fa-instagram:hover {
+  color: #c32aa3;
+}
+
+.fa-vimeo:hover {
+  color: #1da1f2;
+}
+
+.fa-youtube:hover {
+  color: #f00;
+}
+
+.fa-pinterest:hover {
+  color: #bd081c;
+}
+
+.fa-behance:hover {
+  color: #1769ff;
+}
+
+.fa-github:hover {
+  color: #fff;
+}
+
+.fa-rss:hover {
+  color: #f26522;
 }
 
 @media screen and (min-width: 769px) {
