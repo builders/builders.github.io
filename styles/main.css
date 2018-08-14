@@ -56,6 +56,11 @@ header.section {
 .brand p {
   color: #ccc;
   margin-bottom: 1rem;
+  transition: color .3s;
+}
+
+.brand:hover p {
+  color: #333;
 }
 
 .main-menu h2 {
