@@ -12,6 +12,23 @@ h2.title {
   margin-bottom: 1em;
 }
 
+.button {
+  border-radius: 0;
+  text-transform: uppercase;
+  transition: background-color .3s;
+}
+
+.button.is-medium {
+  font-size: 1rem;
+  letter-spacing: .1rem;
+  padding: .5em 1.2em;
+  height: 2.82em;
+}
+
+.input {
+  border-radius: 0;
+}
+
 header.section {
   padding-top: .75rem;
 }
@@ -50,6 +67,11 @@ header.section {
 .brand p {
   color: #ccc;
   margin-bottom: 1rem;
+  transition: color .3s;
+}
+
+.brand:hover p {
+  color: #333;
 }
 
 .main-menu h2 {
@@ -77,37 +99,6 @@ header.section {
 
 .main-menu h2 a:hover {
   color: #000;
-}
-
-.logo-icon {
-  display: block;
-  text-indent: -100%;
-  width: 80px;
-  height: 80px;
-  position: relative;
-  top: -3rem;
-  background: #fff url(../images/bldrs-icon.svg) no-repeat center center;
-  background-size: 40px 40px;
-  transition: all .2s;
-}
-
-.logo-icon:hover {
-  background-size: 48px 48px;
-}
-
-.logo-outlines a {
-  display: block;
-  text-indent: -100%;
-  width: 177px;
-  height: 32px;
-  background-image: url(../images/bldrs-outlines.svg);
-  background-size: 177px 32px;
-  opacity: .5;
-  transition: all .3s;
-}
-
-.logo-outlines a:hover {
-  opacity: 1;
 }
 
 .card {
@@ -208,6 +199,109 @@ header.section {
 
 .section figcaption {
   padding-top: 1rem;
+}
+
+.img-border {
+  display: block;
+  position: relative;
+}
+
+.img-border::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -12px;
+  bottom: 0;
+  width: 12px;
+  background-color: #F5A623;
+}
+
+#build {
+  background-color: #f6f6f6;
+  padding-top: 0;
+  padding-bottom: 6rem;
+}
+
+#build .section-heading {
+  padding-top: 0;
+}
+
+#build .section-heading h2 {
+  border-top: 12px solid #EB008B;
+  padding-top: 3rem;
+}
+
+#build .column figure,
+#community .column figure {
+  display: block;
+}
+
+#build .image,
+#community .shape {
+  max-width: 240px;
+  margin: 0 auto;
+}
+
+#build .button {
+  background-color: #EB008B;
+}
+
+#build .button:hover {
+  background-color: #000;
+}
+
+#connect {
+  background-color: #FFFAE8;
+}
+
+#connect .button {
+  background-color: #F5A623;
+}
+
+#connect .button:hover {
+  background-color: #000;
+}
+
+#connect .input {
+  border-color: #F5A623;
+  border-color: rgba(244,166,36,.5);
+}
+
+#connect .input:focus {
+  border-color: #F5A623;
+  box-shadow: 0 0 0 0.125em rgba(244,166,36,.25);
+}
+
+.logo-icon {
+  display: block;
+  text-indent: -100%;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  top: -3rem;
+  background: #fff url(../images/bldrs-icon.svg) no-repeat center center;
+  background-size: 40px 40px;
+  transition: all .2s;
+}
+
+.logo-icon:hover {
+  background-size: 48px 48px;
+}
+
+.logo-outlines a {
+  display: block;
+  text-indent: -100%;
+  width: 177px;
+  height: 32px;
+  background-image: url(../images/bldrs-outlines.svg);
+  background-size: 177px 32px;
+  opacity: .5;
+  transition: all .3s;
+}
+
+.logo-outlines a:hover {
+  opacity: 1;
 }
 
 .footer h2 {
