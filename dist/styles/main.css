@@ -1,0 +1,187 @@
+body {
+  font-family: "aktiv-grotesk", sans-serif;
+}
+
+h1.title {
+  font-family: "aktiv-grotesk-extended", sans-serif;
+  font-weight: 900;
+}
+
+h2.title {
+  font-family: "aktiv-grotesk-extended", sans-serif;
+  font-weight: 800;
+}
+
+.column p {
+  margin-bottom: 1em;
+}
+
+header.section {
+  padding-top: .75rem;
+}
+
+.brand {
+  margin-bottom: 6em;
+}
+
+.brand .column {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.brand .logo {
+  padding-top: 1.5rem;
+}
+
+.brand .tagline {
+  padding-bottom: 2rem;
+}
+
+.brand h1 {
+  margin-bottom: 1rem;
+}
+
+.brand h1 a {
+  display: block;
+  text-indent: -100%;
+  width: 132px;
+  height: 24px;
+  background: url(../images/bldrs.svg);
+  background-size: 132px 24px;
+}
+
+.brand p {
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+
+.main-menu h2 {
+  font-family: "aktiv-grotesk-extended", sans-serif;
+  font-weight: 900;
+  font-size: 2.8rem;
+  letter-spacing: -.2rem;
+}
+
+.main-menu .column {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.main-menu .menu-item-desc {
+  padding-bottom: 1rem;
+}
+
+.main-menu h2 a {
+  color: #ccc;
+  display: block;
+  transition: color .3s;
+}
+
+.main-menu h2 a:hover {
+  color: #999;
+}
+
+.logo-icon {
+  display: block;
+  text-indent: -100%;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  top: -3rem;
+  background: #fff url(../images/bldrs-icon.svg) no-repeat center center;
+  background-size: 40px 40px;
+}
+
+@media screen and (min-width: 769px) {
+  .brand .column {
+    padding-top: 1.5rem;
+    padding-bottom: 4rem;
+  }
+
+  .brand .logo,
+  .main-menu .menu-item {
+    border-right: 1px solid #333;
+  }
+
+  .main-menu h2 {
+    font-size: 2.8rem;
+    text-align: right;
+  }
+
+  .main-menu .menu-item {
+    position: relative;
+  }
+
+  .main-menu .menu-item::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 6px;
+    height: 3rem;
+    top: -4rem;
+    right: -7px;
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+
+  .main-menu .menu-imagine .menu-item::after {
+    background-color: #F5A623;
+  }
+
+  .main-menu .menu-design .menu-item::after {
+    background-color: #00ADEE;
+  }
+
+  .main-menu .menu-build .menu-item::after {
+    background-color: #EB008B;
+  }
+
+  .main-menu .menu-item:hover::after {
+    opacity: 1;
+    top: .5rem;
+  }
+
+  .main-menu .menu-item-desc {
+    padding-top: .4rem;
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  .brand .column {
+    padding-top: 1.5rem;
+    padding-bottom: 6rem;
+  }
+
+  .brand h1,
+  .brand p {
+    display: block;
+    padding-right: 1.5rem;
+  }
+
+  .brand h1 a {
+    width: 176px;
+    height: 32px;
+    background-size: 176px 32px;
+  }
+
+  .brand p {
+    -ms-flex: 2;
+    flex: 2;
+  }
+
+  .main-menu h2 {
+    font-size: 4.5rem;
+  }
+
+  .main-menu .menu-item-desc {
+    padding-top: 2.25rem;
+  }
+
+  .main-menu .menu-item::after {
+    height: 4rem;
+  }
+
+  .main-menu .menu-item:hover::after {
+    top: 1.75rem;
+  }
+}
