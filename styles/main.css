@@ -207,6 +207,15 @@ header.section {
   background-color: var(--color1);
 }
 
+#community .column figure {
+  display: block;
+}
+
+#community .shape {
+  max-width: 240px;
+  margin: 0 auto;
+}
+
 .logo-icon {
   display: block;
   text-indent: -100%;
