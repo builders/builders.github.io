@@ -1,5 +1,5 @@
 {
-  "name": "builders-html",
+  "name": "builders",
   "version": "0.1.0",
   "description": "A site for the builders collective",
   "main": "index.js",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/builders/builders-html.git"
+    "url": "git+https://github.com/builders/builders.git"
   },
   "keywords": [
     "jus",
@@ -30,7 +30,7 @@
   "author": "bauhouse",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/builders/builders-html/issues"
+    "url": "https://github.com/builders/builders/issues"
   },
-  "homepage": "https://github.com/builders/builders-html#readme"
+  "homepage": "https://github.com/builders/builders#readme"
 }
