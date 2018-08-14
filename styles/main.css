@@ -108,6 +108,86 @@ header.section {
   background-size: 177px 32px;
 }
 
+.card {
+  box-shadow: none;
+}
+
+.card-content {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.card .meta {
+  font-family: "aktiv-grotesk", sans-serif;
+  font-weight: 700;
+  font-size: .8rem;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  margin-top: 1.25em;
+}
+
+.card .meta a {
+  color: #999;
+}
+
+.card-imagine .meta a:hover {
+  color: var(--color1);
+}
+
+.card-design .meta a:hover {
+  color: var(--color2);
+}
+
+.card-build .meta a:hover {
+  color: var(--color3);
+}
+
+.card .meta a:active {
+  color: #000;
+}
+
+.content h3:not(:first-child) {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+.card h3 a {
+  color: #000;
+  display: block;
+  border-bottom: 12px solid #000;
+  padding-bottom: 2em;
+  transition: all .3s;
+}
+
+.card-imagine h3 a {
+  border-color: var(--color1);
+}
+
+.card-design h3 a {
+  border-color: var(--color2);
+}
+
+.card-build h3 a {
+  border-color: var(--color3);
+}
+
+.card h3 a:hover {
+  border-color: #000;
+}
+
+.card-imagine h3 a:hover {
+  color: var(--color1);
+}
+
+.card-design h3 a:hover {
+  color: var(--color2);
+}
+
+.card-build h3 a:hover {
+  color: var(--color3);
+}
+
 @media screen and (min-width: 769px) {
 
   .brand .column {
@@ -201,6 +281,10 @@ header.section {
 
   .main-menu .menu-item:hover::after {
     top: 1.75rem;
+  }
+
+  .card h3 a {
+    min-height: 13rem;
   }
 
 }
