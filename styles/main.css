@@ -254,10 +254,6 @@ header.section {
   transition: color .3s;
 }
 
-.footer .social-network a:hover {
-  color: #fff;
-}
-
 .footer .social-network .icon,
 .footer .social-network .icon svg {
   width: 1.3rem;
@@ -266,6 +262,42 @@ header.section {
 
 .footer .social-network .icon {
   margin-right: .75rem;
+}
+
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.fa-facebook:hover {
+  color: #3b5998;
+}
+
+.fa-instagram:hover {
+  color: #c32aa3;
+}
+
+.fa-vimeo:hover {
+  color: #1da1f2;
+}
+
+.fa-youtube:hover {
+  color: #f00;
+}
+
+.fa-pinterest:hover {
+  color: #bd081c;
+}
+
+.fa-behance:hover {
+  color: #1769ff;
+}
+
+.fa-github:hover {
+  color: #fff;
+}
+
+.fa-rss:hover {
+  color: #f26522;
 }
 
 
