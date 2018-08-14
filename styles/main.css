@@ -222,6 +222,11 @@ header.section {
   color: var(--color3);
 }
 
+.has-bg-img {
+  background-position: center center;
+  background-size: cover;
+}
+
 @media screen and (min-width: 769px) {
 
   .brand .column {
