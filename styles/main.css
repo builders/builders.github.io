@@ -8,13 +8,9 @@ body {
   font-family: "aktiv-grotesk", sans-serif;
 }
 
-h1.title {
-  font-family: "aktiv-grotesk-extended", sans-serif;
-  font-weight: 900;
-}
-
+h1.title,
 h2.title {
-  font-family: "aktiv-grotesk-extended", sans-serif;
+  font-family: "aktiv-grotesk", sans-serif;
   font-weight: 800;
 }
 
@@ -135,6 +131,12 @@ header.section {
   height: 32px;
   background-image: url(../images/bldrs-outlines.svg);
   background-size: 177px 32px;
+  opacity: .5;
+  transition: all .3s;
+}
+
+.logo-outlines a:hover {
+  opacity: 1;
 }
 
 .card {
@@ -227,6 +229,58 @@ header.section {
   background-size: cover;
 }
 
+.footer h2 {
+  color: #999;
+}
+
+.footer p {
+  color: #666;
+}
+
+.footer p.site-info {
+  font-size: .75rem;
+  margin-top: 6em;
+  color: #444;
+}
+
+.footer .menu a {
+  font-weight: 600;
+  color: #999;
+  transition: color .3s;
+}
+
+.footer .menu a:hover {
+  color: #fff;
+}
+
+.footer .brands {
+  padding-top: 3rem;
+}
+
+.footer .social-network {
+  margin-top: 3rem;
+}
+
+.footer .social-network a {
+  color: #333;
+  transition: color .3s;
+}
+
+.footer .social-network a:hover {
+  color: #fff;
+}
+
+.footer .social-network .icon,
+.footer .social-network .icon svg {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+.footer .social-network .icon {
+  margin-right: .75rem;
+}
+
+
 @media screen and (min-width: 769px) {
 
   .brand .column {
@@ -291,6 +345,10 @@ header.section {
     transition: all .3s;
   }
 
+  .footer .social-network {
+    margin-top: 0;
+  }
+
 }
 
 @media screen and (min-width: 1281px) {
@@ -334,6 +392,16 @@ header.section {
 
   .card h3 a {
     min-height: 13rem;
+  }
+
+  .footer .social-network .icon,
+  .footer .social-network .icon svg {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .footer .social-network .icon {
+    margin-right: 1.5rem;
   }
 
 }
