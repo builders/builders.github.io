@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/builders/builders.git"
+    "url": "git+https://github.com/builders/builders.github.io.git"
   },
   "keywords": [
     "jus",
@@ -29,7 +29,7 @@
   "author": "bauhouse",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/builders/builders/issues"
+    "url": "https://github.com/builders/builders.github.io/issues"
   },
   "homepage": "https://builders.github.io/"
 }
