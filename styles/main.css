@@ -186,6 +186,22 @@ header.section {
   padding-top: 1rem;
 }
 
+.img-border {
+  display: block;
+  position: relative;
+}
+
+.img-border::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -12px;
+  bottom: 0;
+  width: 12px;
+  background-color: var(--color1);
+}
+
 .logo-icon {
   display: block;
   text-indent: -100%;
