@@ -18,6 +18,23 @@ h2.title {
   margin-bottom: 1em;
 }
 
+.button {
+  border-radius: 0;
+  text-transform: uppercase;
+  transition: background-color .3s;
+}
+
+.button.is-medium {
+  font-size: 1rem;
+  letter-spacing: .1rem;
+  padding: .5em 1.2em;
+  height: 2.82em;
+}
+
+.input {
+  border-radius: 0;
+}
+
 header.section {
   padding-top: .75rem;
 }
@@ -216,6 +233,36 @@ header.section {
 #community .shape {
   max-width: 240px;
   margin: 0 auto;
+}
+
+#build .button {
+  background-color: var(--color2);
+}
+
+#build .button:hover {
+  background-color: #000;
+}
+
+#connect {
+  background-color: #FFFAE8;
+}
+
+#connect .button {
+  background-color: var(--color1);
+}
+
+#connect .button:hover {
+  background-color: #000;
+}
+
+#connect .input {
+  border-color: var(--color1);
+  border-color: rgba(244,166,36,.5);
+}
+
+#connect .input:focus {
+  border-color: var(--color1);
+  box-shadow: 0 0 0 0.125em rgba(244,166,36,.25);
 }
 
 .logo-icon {
