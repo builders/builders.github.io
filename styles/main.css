@@ -224,6 +224,21 @@ header.section {
   background-color: var(--color1);
 }
 
+#build {
+  background-color: #f6f6f6;
+  padding-top: 0;
+  padding-bottom: 6rem;
+}
+
+#build .section-heading {
+  padding-top: 0;
+}
+
+#build .section-heading h2 {
+  border-top: 12px solid var(--color3);
+  padding-top: 3rem;
+}
+
 #build .column figure,
 #community .column figure {
   display: block;
@@ -236,7 +251,7 @@ header.section {
 }
 
 #build .button {
-  background-color: var(--color2);
+  background-color: var(--color3);
 }
 
 #build .button:hover {
