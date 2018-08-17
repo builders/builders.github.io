@@ -117,6 +117,10 @@ header.section {
   top: 0;
 }
 
+.card .image {
+  overflow: hidden;
+}
+
 .card-content {
   padding-left: 0;
   padding-right: 0;
@@ -490,6 +494,14 @@ header.section {
 
   .menu-build .menu-item-desc p::after {
     background-image: url(../images/square.svg);
+  }
+
+  .card .image img {
+    transition: all 1.5s ease-in-out;
+  }
+
+  .card:hover .image img {
+    transform: scale(1.2);
   }
 
   .card:hover .card-image {
