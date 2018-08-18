@@ -498,6 +498,7 @@ header.section {
     top: -1px;
     right: -5px;
     background-size: 48px 48px;
+    transition: all 0.3s ease;
   }
 
   .menu-imagine .menu-item-desc p::after {
@@ -510,6 +511,10 @@ header.section {
 
   .menu-build .menu-item-desc p::after {
     background-image: url(../images/square.svg);
+  }
+
+  .main-menu li:hover .menu-item-desc p::after {
+    transform: scale(1.2);
   }
 
   .card .image img {
