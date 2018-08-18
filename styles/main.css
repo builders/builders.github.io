@@ -56,6 +56,7 @@ header.section {
 
 .brand h1 a {
   display: block;
+  overflow: hidden;
   text-indent: -100%;
   width: 132px;
   height: 24px;
@@ -195,10 +196,21 @@ header.section {
   background-size: cover;
 }
 
-.hero .title,
-.hero .subtitle {
-  color: #fff;
-  text-shadow: 0 0 .3rem rgba(0, 0, 0, .5);
+.section-image {
+  padding-top: 18rem;
+  padding-bottom: 0;
+  margin-bottom: 1.25rem;
+}
+
+.section-image .column {
+  background-color: #fff;
+  background-color: rgba(255,255,255,.9);
+  border-bottom: .75rem solid #00ADEE;
+  padding: 2rem;
+}
+
+.section-image .section-body .title:not(.is-spaced)+.subtitle {
+  margin-top: 0;
 }
 
 .section figcaption {
@@ -418,6 +430,10 @@ header.section {
     border-right: 1px solid #333;
   }
 
+  .brand h1 a:hover {
+    transform: scale(1.1);
+  }
+
   .main-menu h2 {
     font-size: 2.8rem;
     text-align: right;
@@ -473,6 +489,7 @@ header.section {
     top: -1px;
     right: -5px;
     background-size: 48px 48px;
+    transition: all 0.3s ease;
   }
 
   .menu-imagine .menu-item-desc p::after {
@@ -485,6 +502,10 @@ header.section {
 
   .menu-build .menu-item-desc p::after {
     background-image: url(../images/square.svg);
+  }
+
+  .main-menu li:hover .menu-item-desc p::after {
+    transform: scale(1.2);
   }
 
   .card .image img {
@@ -503,6 +524,32 @@ header.section {
   .card h3 a {
     min-height: 15rem;
     transition: all .3s;
+  }
+
+  .section-image {
+    padding-top: 32rem;
+    padding-bottom: 0;
+  }
+
+  .section-image .section-body {
+    padding: 0;
+  }
+
+  .section-image .columns.is-variable .column {
+    position: relative;
+    left: -2.25rem;
+    padding: 3rem;
+    width: calc(66.6666% + 2.25rem);
+  }
+
+  .section-image .column {
+    background-color: #fff;
+    border-left: .75rem solid #00ADEE;
+    border-bottom: 0;
+  }
+
+  .section-image .section-body .subtitle {
+    color: #999;
   }
 
   .footer .social-network {
