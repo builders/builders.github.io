@@ -439,6 +439,10 @@ header.section {
     border-right: 1px solid #333;
   }
 
+  .brand h1 a:hover {
+    transform: scale(1.1);
+  }
+
   .main-menu h2 {
     font-size: 2.8rem;
     text-align: right;
