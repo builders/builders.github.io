@@ -202,10 +202,21 @@ header.section {
   background-size: cover;
 }
 
-.hero .title,
-.hero .subtitle {
-  color: #fff;
-  text-shadow: 0 0 .3rem rgba(0, 0, 0, .5);
+.section-image {
+  padding-top: 18rem;
+  padding-bottom: 0;
+  margin-bottom: 1.25rem;
+}
+
+.section-image .column {
+  background-color: #fff;
+  background-color: rgba(255,255,255,.9);
+  border-bottom: .75rem solid var(--color2);
+  padding: 2rem;
+}
+
+.section-image .section-body .title:not(.is-spaced)+.subtitle {
+  margin-top: 0;
 }
 
 .section figcaption {
@@ -512,6 +523,32 @@ header.section {
   .card h3 a {
     min-height: 15rem;
     transition: all .3s;
+  }
+
+  .section-image {
+    padding-top: 32rem;
+    padding-bottom: 0;
+  }
+
+  .section-image .section-body {
+    padding: 0;
+  }
+
+  .section-image .columns.is-variable .column {
+    position: relative;
+    left: -2.25rem;
+    padding: 3rem;
+    width: calc(66.6666% + 2.25rem);
+  }
+
+  .section-image .column {
+    background-color: #fff;
+    border-left: .75rem solid var(--color2);
+    border-bottom: 0;
+  }
+
+  .section-image .section-body .subtitle {
+    color: #999;
   }
 
   .footer .social-network {
