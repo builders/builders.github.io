@@ -561,6 +561,14 @@ header.section {
     color: #999;
   }
 
+  #community a .shape {
+    transition: all .3s ease;
+  }
+
+  #community a:hover .shape {
+    transform: scale(1.1);
+  }
+
   .footer .social-network {
     margin-top: 0;
   }
