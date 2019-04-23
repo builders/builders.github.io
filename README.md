@@ -18,7 +18,7 @@ building resilience, relationships and community
 
 This site is being created with jus, a development server and build tool for making static websites with no configuration and no boilerplate code. It has built-in support for browserify, ES6 and ES2015 with Babel, React JSX, GitHub Flavored markdown, syntax highlighting, Sass, Less, Stylus, Myth, Handlebars, browsersync and more.
 
-<jus.js.org>
+[jus.js.org](https://jus.js.org)
 
 ## Font Awesome
 
