@@ -1,6 +1,6 @@
 :root {
-  --color1: #F5A623;
-  --color2: #00ADEE;
+  --color1: #00ADEE;
+  --color2: #F5A623;
   --color3: #EB008B;
 }
 
@@ -504,11 +504,11 @@ header.section {
   }
 
   .menu-imagine .menu-item-desc p::after {
-    background-image: url(../images/triangle.svg);
+    background-image: url(../images/circle.svg);
   }
 
   .menu-design .menu-item-desc p::after {
-    background-image: url(../images/circle.svg);
+    background-image: url(../images/triangle.svg);
   }
 
   .menu-build .menu-item-desc p::after {
