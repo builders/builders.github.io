@@ -1,3 +1,9 @@
+:root {
+  --color1: #00ADEE;
+  --color2: #F5A623;
+  --color3: #EB008B;
+}
+
 body {
   font-family: "aktiv-grotesk", sans-serif;
 }
@@ -100,6 +106,7 @@ header.section {
 
 .main-menu h2 a:hover {
   color: #000;
+
 }
 
 .card {
@@ -134,15 +141,15 @@ header.section {
 }
 
 .card-imagine .meta a:hover {
-  color: #F5A623;
+  color: var(--color1);
 }
 
 .card-design .meta a:hover {
-  color: #00ADEE;
+  color: var(--color2);
 }
 
 .card-build .meta a:hover {
-  color: #EB008B;
+  color: var(--color3);
 }
 
 .card .meta a:active {
@@ -164,15 +171,15 @@ header.section {
 }
 
 .card-imagine h3 a {
-  border-color: #F5A623;
+  border-color: var(--color1);
 }
 
 .card-design h3 a {
-  border-color: #00ADEE;
+  border-color: var(--color2);
 }
 
 .card-build h3 a {
-  border-color: #EB008B;
+  border-color: var(--color3);
 }
 
 .card:hover h3 a {
@@ -180,15 +187,15 @@ header.section {
 }
 
 .card-imagine:hover h3 a {
-  color: #F5A623;
+  color: var(--color1);
 }
 
 .card-design:hover h3 a {
-  color: #00ADEE;
+  color: var(--color2);
 }
 
 .card-build:hover h3 a {
-  color: #EB008B;
+  color: var(--color3);
 }
 
 .has-bg-img {
@@ -205,7 +212,7 @@ header.section {
 .section-image .column {
   background-color: #fff;
   background-color: rgba(255,255,255,.9);
-  border-bottom: .75rem solid #00ADEE;
+  border-bottom: .75rem solid var(--color2);
   padding: 2rem;
 }
 
@@ -230,7 +237,7 @@ header.section {
   left: -12px;
   bottom: 0;
   width: 12px;
-  background-color: #F5A623;
+  background-color: var(--color1);
 }
 
 #build {
@@ -244,7 +251,7 @@ header.section {
 }
 
 #build .section-heading h2 {
-  border-top: 12px solid #EB008B;
+  border-top: 12px solid var(--color3);
   padding-top: 3rem;
 }
 
@@ -260,7 +267,7 @@ header.section {
 }
 
 #build .button {
-  background-color: #EB008B;
+  background-color: var(--color3);
 }
 
 #build .button:hover {
@@ -272,7 +279,7 @@ header.section {
 }
 
 #connect .button {
-  background-color: #F5A623;
+  background-color: var(--color1);
 }
 
 #connect .button:hover {
@@ -280,12 +287,12 @@ header.section {
 }
 
 #connect .input {
-  border-color: #F5A623;
+  border-color: var(--color1);
   border-color: rgba(244,166,36,.5);
 }
 
 #connect .input:focus {
-  border-color: #F5A623;
+  border-color: var(--color1);
   box-shadow: 0 0 0 0.125em rgba(244,166,36,.25);
 }
 
@@ -351,15 +358,15 @@ header.section {
 }
 
 .footer .menu .imagine a:hover {
-  color: #F5A623;
+  color: var(--color1);
 }
 
 .footer .menu .design a:hover {
-  color: #00ADEE;
+  color: var(--color2);
 }
 
 .footer .menu .build a:hover {
-  color: #EB008B;
+  color: var(--color3);
 }
 
 .footer .brands {
@@ -421,7 +428,9 @@ header.section {
   color: #f26522;
 }
 
+
 @media screen and (min-width: 769px) {
+
   .brand .column {
     padding-top: 1.5rem;
     padding-bottom: 4rem;
@@ -458,15 +467,15 @@ header.section {
   }
 
   .main-menu .menu-imagine .menu-item::after {
-    background-color: #F5A623;
+    background-color: var(--color1);
   }
 
   .main-menu .menu-design .menu-item::after {
-    background-color: #00ADEE;
+    background-color: var(--color2);
   }
 
   .main-menu .menu-build .menu-item::after {
-    background-color: #EB008B;
+    background-color: var(--color3);
   }
 
   .main-menu .menu-item:hover::after {
@@ -495,11 +504,11 @@ header.section {
   }
 
   .menu-imagine .menu-item-desc p::after {
-    background-image: url(../images/triangle.svg);
+    background-image: url(../images/circle.svg);
   }
 
   .menu-design .menu-item-desc p::after {
-    background-image: url(../images/circle.svg);
+    background-image: url(../images/triangle.svg);
   }
 
   .menu-build .menu-item-desc p::after {
@@ -546,7 +555,7 @@ header.section {
 
   .section-image .column {
     background-color: #fff;
-    border-left: .75rem solid #00ADEE;
+    border-left: .75rem solid var(--color2);
     border-bottom: 0;
   }
 
@@ -565,9 +574,11 @@ header.section {
   .footer .social-network {
     margin-top: 0;
   }
+
 }
 
 @media screen and (min-width: 1281px) {
+
   .brand .column {
     padding-top: 1.5rem;
     padding-bottom: 6rem;
@@ -586,7 +597,6 @@ header.section {
   }
 
   .brand p {
-    -ms-flex: 2;
     flex: 2;
   }
 
@@ -627,4 +637,5 @@ header.section {
   .footer .social-network .icon {
     margin-right: 1.5rem;
   }
+
 }
