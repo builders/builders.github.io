@@ -1,0 +1,24 @@
+{
+    "name": "BLDRS Collective",
+    "url": "https://bldrs.co",
+    "author": {
+        "name": "Stephen Bau",
+        "handle": "@bauhouse"
+    },
+    "images": {
+        "logo": "/images/bldrs.svg",
+        "favicon": "/favicon.ico",
+        "twitter": "/images/meta/twitter.jpg",
+        "og": "/images/meta/og.jpg"
+    },
+    "social_links": {
+        "twitter": "https://twitter.com/bldrsco",
+        "facebook": "https://www.facebook.com/builderscollective",
+        "instagram": "https://www.instagram.com/bldrsco/",
+        "medium": "https://medium.com/builderscollective",
+        "pinterest": "https://www.pinterest.ca/builderscollective/",
+        "behance": "https://www.behance.net/bldrs",
+        "github": "https://github.com/builders",
+        "patreon": "https://www.patreon.com/builders"
+    }
+}
