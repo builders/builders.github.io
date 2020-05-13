@@ -1,6 +1,6 @@
 # builders collective
 
-A gathering of people who are investing their collective time, energy and resources in the challenge of reimagining our social architecture.</p>
+A gathering of people who are investing their collective time, energy and resources in the challenge of reimagining our social architecture.
 
 ## imagine
 
@@ -17,6 +17,10 @@ building resilience, relationships and community
 ## Eleventy
 
 This site is being created with [Eleventy](https://www.11ty.dev/), a simpler static site generator.
+
+## Bulma
+
+Styles are built with [Bulma](https://bulma.io/), a free, open source CSS framework based on Flexbox.
 
 ## Font Awesome
 
