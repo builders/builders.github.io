@@ -343,6 +343,17 @@ header.section {
   color: #444;
 }
 
+.footer h2.title a,
+.footer .site-description a {
+  color: #999;
+  transition: color .3s;
+}
+
+.footer h2.title a:hover,
+.footer .site-description a:hover {
+  color: var(--color1);
+}
+
 .footer .site-info a {
   color: #666;
 }
