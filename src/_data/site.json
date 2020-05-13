@@ -12,13 +12,13 @@
         "og": "/images/meta/og.jpg"
     },
     "social_links": {
-        "twitter": "https://twitter.com/bldrsco",
-        "facebook": "https://www.facebook.com/builderscollective",
-        "instagram": "https://www.instagram.com/bldrsco/",
+        "patreon": "https://www.patreon.com/builders",
+        "github": "https://github.com/builders",
         "medium": "https://medium.com/builderscollective",
         "pinterest": "https://www.pinterest.ca/builderscollective/",
         "behance": "https://www.behance.net/bldrs",
-        "github": "https://github.com/builders",
-        "patreon": "https://www.patreon.com/builders"
+        "facebook": "https://www.facebook.com/builderscollective",
+        "instagram": "https://www.instagram.com/bldrsco/",
+        "twitter": "https://twitter.com/bldrsco"
     }
 }
