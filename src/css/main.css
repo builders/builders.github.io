@@ -412,6 +412,10 @@ header.section {
   color: #f00;
 }
 
+.fa-medium:hover {
+  color: #03a87c;
+}
+
 .fa-pinterest:hover {
   color: #bd081c;
 }
@@ -422,6 +426,10 @@ header.section {
 
 .fa-github:hover {
   color: #fff;
+}
+
+.fa-patreon:hover {
+  color: #e85b46;
 }
 
 .fa-rss:hover {
