@@ -1,24 +1,24 @@
 <nav class="main-menu">
   <ul>
-    <li class="columns is-variable is-6 menu-imagine">
+    <li class="columns is-variable is-6 menu-imagine{% if page.url == "/imagine/" %} current{% endif %}">
       <div class="column menu-item">
-        <h2><a href="#imagine">imagine</a></h2>
+        <h2><a href="/imagine/">imagine</a></h2>
       </div>
       <div class="column menu-item-desc is-8">
         <p>creativity and innovation at the <br />intersection of art and science</p>
       </div>
     </li>
-    <li class="columns is-variable is-6 menu-design">
+    <li class="columns is-variable is-6 menu-design{% if page.url == "/design/" %} current{% endif %}">
       <div class="column menu-item">
-        <h2><a href="#design">design</a></h2>
+        <h2><a href="/design/">design</a></h2>
       </div>
       <div class="column menu-item-desc is-8">
         <p>influenced by the past, <br />shaping the future</p>
       </div>
     </li>
-    <li class="columns is-variable is-6 menu-build">
+    <li class="columns is-variable is-6 menu-build{% if page.url == "/build/" %} current{% endif %}">
       <div class="column menu-item">
-        <h2><a href="#build">build</a></h2>
+        <h2><a href="/build/">build</a></h2>
       </div>
       <div class="column menu-item-desc is-8">
         <p>building resilience,  <br />relationships and community</p>
