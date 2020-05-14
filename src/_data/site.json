@@ -3,27 +3,29 @@
     "url": "https://bldrs.co",
     "author": {
         "name": "Stephen Bau",
-        "handle": "@bauhouse"
+        "handle": "@bauhouse",
+        "url": "https://stephenbau.com/"
     },
-    "description": "A gathering of people who are investing their collective time, energy, and resources in the challenge of reimagining our social architecture.",
+    "description": "Exploring how we imagine, design, and build the future together",
     "keywords": "imagine, design, build, social architecture",
     "generator": "Eleventy v0.11.0",
     "company": {
-      "name": "BLDRS Collective",
-      "legal_name": "BLDRS Collective Inc.",
-      "mission": "Building leaders to design a resilient society",
-      "vision": "Design for resilience",
-      "url": "https://bldrs.co"
+        "name": "BLDRS Collective",
+        "legal_name": "BLDRS Collective Inc.",
+        "mission": "Building leaders to design a resilient society",
+        "vision": "Design for resilience",
+        "url": "https://bldrs.co"
     },
     "org": {
-      "name": "Builders Collective",
-      "url": "https://builderscollective.com/"
+        "name": "Builders Collective",
+        "handle": "@bldrsco",
+        "url": "https://builderscollective.com/"
     },
     "images": {
         "logo": "/images/bldrs.svg",
-        "favicon": "/favicon.ico",
-        "twitter": "/images/meta/twitter.jpg",
-        "og": "/images/meta/og.jpg"
+        "favicon": "/images/favicon.png",
+        "twitter": "/images/bldrs-resilience-tagline-twitter-1024x512.jpg",
+        "og": "/images/bldrs-resilience-tagline-og-1200x630.jpg"
     },
     "social_links": {
         "patreon": "https://www.patreon.com/builders",
