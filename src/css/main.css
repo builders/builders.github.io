@@ -624,7 +624,8 @@ header.section {
   }
 
   .main-menu h2 {
-    font-size: 4.5rem;
+    font-size: 4.2rem;
+    margin-top: 5px;
   }
 
   .main-menu .menu-item-desc {
