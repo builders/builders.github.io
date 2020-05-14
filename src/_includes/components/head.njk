@@ -1,7 +1,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>BLDRS | design for resilience</title>
+  <meta name="author" content="{{ site.author.name }}" />
+  <meta name="description" content="{{ site.description }}" />
+  <meta name="keywords" content="{{ site.keywords }}" />
+  <meta name="generator" content="{{ site.generator }}" />
+  <title>{{ site.name }} | {{ site.company.vision | lower if page.url == "/" else title }}</title>
   <link rel="shortcut icon" href="/favicon.ico" />
   <link rel="stylesheet" href="https://use.typekit.net/lio5uid.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
