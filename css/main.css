@@ -343,6 +343,17 @@ header.section {
   color: #444;
 }
 
+.footer h2.title a,
+.footer .site-description a {
+  color: #999;
+  transition: color .3s;
+}
+
+.footer h2.title a:hover,
+.footer .site-description a:hover {
+  color: var(--color1);
+}
+
 .footer .site-info a {
   color: #666;
 }
@@ -384,8 +395,8 @@ header.section {
 
 .footer .social-network .icon,
 .footer .social-network .icon svg {
-  width: 1.3rem;
-  height: 1.3rem;
+  width: 1.6rem;
+  height: 1.6rem;
 }
 
 .footer .social-network .icon {
