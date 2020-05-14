@@ -104,8 +104,11 @@ header.section {
   transition: all .3s;
 }
 
-.main-menu .current h2 a,
 .main-menu h2 a:hover {
+  color: #888;
+}
+
+.main-menu .current h2 a {
   color: #000;
 }
 
@@ -632,6 +635,7 @@ header.section {
     height: 4rem;
   }
 
+  .main-menu .current .menu-item::after,
   .main-menu .menu-item:hover::after {
     top: 1.75rem;
   }
