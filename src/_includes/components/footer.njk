@@ -1,7 +1,7 @@
 <footer class="footer has-background-black">
   <div class="container">
-    <a class="logo-icon" href="/">BLDRS</a>
-    <h2 class="title is-4"><a href="https://builderscollective.com/">builders collective</a></h2>
+    <a class="logo-icon" href="/">{{ site.name }}</a>
+    <h2 class="title is-4"><a href="{{ site.org.url}}">{{ site.org.name | lower }}</a></h2>
     <div class="columns is-variable is-6">
       <div class="column is-one-third">
         <div class="site-description">
@@ -38,7 +38,7 @@
     </div>
     <div class="columns is-variable is-6 brands">
       <div class="column is-half">
-        <h2 class="title is-4 logo-outlines"><a href="/">BLDRS</a></h2>
+        <h2 class="title is-4 logo-outlines"><a href="/">{{ site.name }}</a></h2>
       </div>
       <div class="column">
         <div class="social-network">
@@ -52,6 +52,6 @@
         </div>
       </div>
     </div>
-    <p class="site-info">BLDRS Collective Inc.  |  Privacy Policy  |  Terms of Use  |  <a href="https://github.com/builders/builders.github.io">GitHub</a>  |  MIT License</p>
+    <p class="site-info">{{ site.company.legal_name }}  |  Privacy Policy  |  Terms of Use  |  <a href="{{ site.open_source.repo }}">{{ site.open_source.platform }}</a>  |  {{ site.open_source.license }}</p>
   </div>
 </footer>
