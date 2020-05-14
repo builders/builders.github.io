@@ -104,9 +104,9 @@ header.section {
   transition: all .3s;
 }
 
+.main-menu .current h2 a,
 .main-menu h2 a:hover {
   color: #000;
-
 }
 
 .card {
@@ -497,6 +497,7 @@ header.section {
     background-color: var(--color3);
   }
 
+  .main-menu .current .menu-item::after,
   .main-menu .menu-item:hover::after {
     opacity: 1;
     top: .5rem;
