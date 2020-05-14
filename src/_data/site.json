@@ -1,9 +1,20 @@
 {
-    "name": "BLDRS Collective",
+    "name": "BLDRS",
     "url": "https://bldrs.co",
     "author": {
         "name": "Stephen Bau",
         "handle": "@bauhouse"
+    },
+    "company": {
+      "name": "BLDRS Collective",
+      "legal_name": "BLDRS Collective Inc.",
+      "mission": "Building leaders to design a resilient society",
+      "vision": "Design for resilience",
+      "url": "https://bldrs.co"
+    },
+    "org": {
+      "name": "Builders Collective",
+      "url": "https://builderscollective.com/"
     },
     "images": {
         "logo": "/images/bldrs.svg",
@@ -20,5 +31,12 @@
         "facebook": "https://www.facebook.com/builderscollective",
         "instagram": "https://www.instagram.com/bldrsco/",
         "twitter": "https://twitter.com/bldrsco"
+    },
+    "open_source": {
+        "platform": "GitHub",
+        "url": "https://github.com/",
+        "account": "builders",
+        "repo": "https://github.com/builders/builders.github.io",
+        "license": "MIT License"
     }
 }
