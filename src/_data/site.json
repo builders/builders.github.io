@@ -5,6 +5,9 @@
         "name": "Stephen Bau",
         "handle": "@bauhouse"
     },
+    "description": "A gathering of people who are investing their collective time, energy, and resources in the challenge of reimagining our social architecture.",
+    "keywords": "imagine, design, build, social architecture",
+    "generator": "Eleventy v0.11.0",
     "company": {
       "name": "BLDRS Collective",
       "legal_name": "BLDRS Collective Inc.",
