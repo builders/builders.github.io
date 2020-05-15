@@ -263,9 +263,8 @@ header.section {
   display: block;
 }
 
-#build .image,
 #community .shape {
-  max-width: 240px;
+  max-width: 150px;
   margin: 0 auto;
 }
 
@@ -450,6 +449,31 @@ header.section {
   color: #f26522;
 }
 
+.profile-images {
+  overflow: hidden;
+  padding: 0.75rem;
+  margin: -0.75rem;
+}
+
+.profile-images .column {
+  float: left;
+  width: 50%;
+  padding: 1.5rem;
+}
+
+#community .column {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+@media screen and (min-width: 400px) {
+
+  .profile-images .column {
+    width: 33.3333%;
+    padding: 1.5rem;
+  }
+
+}
 
 @media screen and (min-width: 769px) {
 
@@ -586,6 +610,11 @@ header.section {
     color: #999;
   }
 
+  .profile-images {
+    padding: 1.5rem;
+    margin: -1.5rem;
+  }
+
   #community a .shape {
     transition: all .3s ease;
   }
@@ -651,6 +680,10 @@ header.section {
 
   .card h3 a {
     min-height: 13rem;
+  }
+
+  #community .shape {
+    max-width: 240px;
   }
 
   .footer .social-network .icon,
