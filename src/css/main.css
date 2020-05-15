@@ -263,9 +263,8 @@ header.section {
   display: block;
 }
 
-#build .image,
 #community .shape {
-  max-width: 240px;
+  max-width: 150px;
   margin: 0 auto;
 }
 
@@ -460,6 +459,11 @@ header.section {
   float: left;
   width: 50%;
   padding: 1.5rem;
+}
+
+#community .column {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 @media screen and (min-width: 400px) {
@@ -676,6 +680,10 @@ header.section {
 
   .card h3 a {
     min-height: 13rem;
+  }
+
+  #community .shape {
+    max-width: 240px;
   }
 
   .footer .social-network .icon,
