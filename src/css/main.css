@@ -450,23 +450,23 @@ header.section {
   color: #f26522;
 }
 
-
 .profile-images {
   overflow: hidden;
-  padding: 1rem;
+  padding: 0.75rem;
+  margin: -0.75rem;
 }
 
 .profile-images .column {
   float: left;
   width: 50%;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 @media screen and (min-width: 400px) {
 
   .profile-images .column {
-    float: left;
     width: 33.3333%;
+    padding: 1.5rem;
   }
 
 }
@@ -604,6 +604,11 @@ header.section {
 
   .section-image .section-body .subtitle {
     color: #999;
+  }
+
+  .profile-images {
+    padding: 1.5rem;
+    margin: -1.5rem;
   }
 
   #community a .shape {
