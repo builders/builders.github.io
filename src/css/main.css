@@ -451,6 +451,26 @@ header.section {
 }
 
 
+.profile-images {
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.profile-images .column {
+  float: left;
+  width: 50%;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 400px) {
+
+  .profile-images .column {
+    float: left;
+    width: 33.3333%;
+  }
+
+}
+
 @media screen and (min-width: 769px) {
 
   .brand .column {
