@@ -1,8 +1,18 @@
+require("dotenv").config();
+
 const fs = require("fs");
+const ghostContentAPI = require("@tryghost/content-api");
 
-module.exports = function(eleventyConfig) {
+// Init Ghost API
+const api = new ghostContentAPI({
+    url: process.env.GHOST_API_URL,
+    key: process.env.GHOST_CONTENT_API_KEY,
+    version: "v3"
+});
 
-  eleventyConfig.setBrowserSyncConfig({
+module.exports = function(config) {
+
+  config.setBrowserSyncConfig({
     callbacks: {
       ready: function(err, bs) {
 
