@@ -17,9 +17,10 @@
     "url": "https://github.com/builders/builders.github.io/issues"
   },
   "homepage": "https://github.com/builders/builders.github.io#readme",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
     "@11ty/eleventy": "^0.11.0",
-    "@tryghost/content-api": "^1.4.1"
-  },
-  "dependencies": {}
+    "@tryghost/content-api": "^1.4.1",
+    "dotenv": "^8.2.0"
+  }
 }
