@@ -4,6 +4,10 @@ meta_title: About
 meta_description: A gathering of people who are investing their collective time, energy, and resources in the challenge of reimagining our social architecture.
 body_class: about
 title: About
+pagination:
+  data: collections.socialarc_posts
+  size: 20
+  alias: posts
 ---
 
 <section class="section is-medium">
@@ -39,6 +43,30 @@ title: About
         </p>
         <hr />
         {% include "components/menu-list-sites.njk" %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-variable is-6">
+      <div class="column">
+        <h1 class="title is-spaced">{{ socialarc.title }}</h1>
+        <h3 class="subtitle is-size-4 has-text-grey">{{ socialarc.description }}</h3>
+      </div>
+      <div class="column is-8">
+        <p class="menu-label">Articles</p>
+        <ul class="article-list">
+          {% for post in posts %}
+            <li>
+              <h3 class="title is-size-5">
+                <a href="{{ post.url }}">{{ post.title }}</a>
+              </h3>
+              <p class="tag-label"><a href="{{ post.primary_tag.url }}"><span class="tag">{{ post.primary_tag.name }}</span></a></p>
+            </li>
+          {% endfor %}
+        </ul>
       </div>
     </div>
   </div>

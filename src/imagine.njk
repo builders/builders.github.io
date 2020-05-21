@@ -4,6 +4,10 @@ meta_title: Imagine
 meta_description: Creativity and innovation at the intersection of art and science
 body_class: imagine
 title: Imagine
+pagination:
+  data: collections.imagine_posts
+  size: 20
+  alias: posts
 ---
 
 <section class="section is-medium">
@@ -30,6 +34,30 @@ title: Imagine
         stamping, stochastic screens and paper stocks. The breadth and depth of
         resources required for competence in the practice of design and
         communications grows as technology progresses.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-variable is-6">
+      <div class="column">
+        <h1 class="title is-spaced">{{ imagine.title }}</h1>
+        <h3 class="subtitle is-size-4 has-text-grey">{{ imagine.description }}</h3>
+      </div>
+      <div class="column is-8">
+        <p class="menu-label">Articles</p>
+        <ul class="article-list">
+          {% for post in posts %}
+            <li>
+              <h3 class="title is-size-5">
+                <a href="{{ post.url }}">{{ post.title }}</a>
+              </h3>
+              <p class="tag-label"><a href="{{ post.primary_tag.url }}"><span class="tag">{{ post.primary_tag.name }}</span></a></p>
+            </li>
+          {% endfor %}
+        </ul>
       </div>
     </div>
   </div>

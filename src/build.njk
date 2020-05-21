@@ -4,6 +4,10 @@ meta_title: Build
 meta_description: Building resilience,  relationships and community
 body_class: build
 title: Build
+pagination:
+  data: collections.build_posts
+  size: 20
+  alias: posts
 ---
 
 <section class="section is-medium">
@@ -29,6 +33,30 @@ title: Build
         which you interact (in both personal and professional settings), as well
         as providing a framework for understanding the underlying psychological
         factors that motivate your own actions when interacting with others.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-variable is-6">
+      <div class="column">
+        <h1 class="title is-spaced">{{ build.title }}</h1>
+        <h3 class="subtitle is-size-4 has-text-grey">{{ build.description }}</h3>
+      </div>
+      <div class="column is-8">
+        <p class="menu-label">Articles</p>
+        <ul class="article-list">
+          {% for post in posts %}
+            <li>
+              <h3 class="title is-size-5">
+                <a href="{{ post.url }}">{{ post.title }}</a>
+              </h3>
+              <p class="tag-label"><a href="{{ post.primary_tag.url }}"><span class="tag">{{ post.primary_tag.name }}</span></a></p>
+            </li>
+          {% endfor %}
+        </ul>
       </div>
     </div>
   </div>
