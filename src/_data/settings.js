@@ -19,7 +19,5 @@ module.exports = async function() {
       console.error(err);
     });
 
-  if (process.env.SITE_URL) siteData.url = process.env.SITE_URL;
-
   return siteData;
 };
