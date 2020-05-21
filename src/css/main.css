@@ -66,7 +66,7 @@ header.section {
   text-indent: -100%;
   width: 132px;
   height: 24px;
-  background: url(../images/bldrs.svg);
+  background: url(/images/brand/bldrs.svg);
   background-size: 132px 24px;
   transition: all .3s;
 }
@@ -305,7 +305,7 @@ header.section {
   height: 80px;
   position: relative;
   top: -3rem;
-  background: #fff url(../images/bldrs-icon.svg) no-repeat center center;
+  background: #fff url(/images/brand/bldrs-icon.svg) no-repeat center center;
   background-size: 40px 40px;
   transition: all .2s;
   overflow: hidden;
@@ -320,7 +320,7 @@ header.section {
   text-indent: -100%;
   width: 177px;
   height: 32px;
-  background-image: url(../images/bldrs-outlines.svg);
+  background-image: url(/images/brand/bldrs-outlines.svg);
   background-size: 177px 32px;
   opacity: .5;
   transition: all .3s;
@@ -583,15 +583,15 @@ header.section {
   }
 
   .menu-imagine .menu-item-desc p::after {
-    background-image: url(../images/circle.svg);
+    background-image: url(/images/brand/circle.svg);
   }
 
   .menu-design .menu-item-desc p::after {
-    background-image: url(../images/triangle.svg);
+    background-image: url(/images/brand/triangle.svg);
   }
 
   .menu-build .menu-item-desc p::after {
-    background-image: url(../images/square.svg);
+    background-image: url(/images/brand/square.svg);
   }
 
   .main-menu li:hover .menu-item-desc p::after {
