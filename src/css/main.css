@@ -466,6 +466,38 @@ header.section {
   padding-bottom: 3rem;
 }
 
+.article-list li {
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.article-list {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 3rem;
+}
+
+.article-list .title {
+  margin-bottom: 0.5rem;
+}
+
+.article-list .title a {
+  color: #363636;
+}
+
+.article-list .tag-label a .tag {
+  color: #7a7a7a;
+  font-weight: bold;
+}
+
+.article-list .title a:hover {
+  color: var(--color1);
+}
+
+.article-list .tag-label a:hover .tag {
+  background-color: var(--color3);
+  color: white;
+}
+
 @media screen and (min-width: 400px) {
 
   .profile-images .column {
