@@ -22,10 +22,10 @@
         "url": "https://builderscollective.com/"
     },
     "images": {
-        "logo": "/images/bldrs.svg",
-        "favicon": "/images/favicon.png",
-        "twitter": "/images/bldrs-resilience-tagline-twitter-1024x512.jpg",
-        "og": "/images/bldrs-resilience-tagline-og-1200x630.jpg"
+        "logo": "/images/brand/bldrs.svg",
+        "favicon": "/images/brand/favicon.png",
+        "twitter": "/images/brand/bldrs-resilience-tagline-twitter-1024x512.jpg",
+        "og": "/images/brand/bldrs-resilience-tagline-og-1200x630.jpg"
     },
     "social_links": {
         "patreon": "https://www.patreon.com/builders",
