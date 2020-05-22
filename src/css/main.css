@@ -8,6 +8,11 @@ body {
   font-family: "aktiv-grotesk", sans-serif;
 }
 
+a {
+  color: var(--color1);
+  font-weight: bold;
+}
+
 h1.title,
 h2.title {
   font-family: "aktiv-grotesk", sans-serif;
